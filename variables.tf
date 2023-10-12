@@ -55,3 +55,10 @@ variable "database_subnet_cidr" {
 variable "database_subnet_names" {
   default = ["database-subnet-1a","database-subnet-1b"]
 }
+
+variable "public_route_table_tags" {
+    default = {
+        Name = "Public-route-table"
+    }
+  
+}
