@@ -62,3 +62,15 @@ variable "public_route_table_tags" {
     }
   
 }
+
+variable "private_route_table_tags" {
+    default = {
+        Name = "Private-route-table"
+    }
+}
+
+  variable "database_route_table_tags" {
+    default = {
+        Name = "database-route-table"
+    }
+  }

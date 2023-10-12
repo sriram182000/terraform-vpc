@@ -25,6 +25,11 @@ module "this" {
     #Public Route table 
     public_route_table_tags = var.public_route_table_tags
 
+    #Private Route table 
+    private_route_table_tags = var.private_route_table_tags
+
+
+
 
 
 
